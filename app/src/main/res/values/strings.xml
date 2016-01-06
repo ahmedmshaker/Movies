@@ -4,6 +4,9 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
+    <string name="open">open</string>
+    <string name="close">close</string>
+
     <string name="movie_card_backdrop_image_view_description">Movie backdrop image</string>
 
     <string name="title_activity_movie_list_favorites">Your Favorite Movies</string>
@@ -22,8 +25,12 @@
     <string name="movie_detail_favorite_image_view_description">Toggle favorite button</string>
     <string name="movie_detail_overview_header">Summary</string>
 
-    <string name="error_no_network">Network unavailable</string>
 
 
+    <string name="API_KEY">
+        5ca4832f8fb046a46eee78fc5d44d789
+    </string>
+
+    <string name="player_error">Error initializing YouTube player</string>
 
 </resources>

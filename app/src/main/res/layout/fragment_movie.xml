@@ -8,7 +8,7 @@
     android:paddingRight="0dp"
     android:paddingTop="0dp"
     android:paddingBottom="0dp"
-    tools:context="no.sindrenm.popularmovies.ui.movies.detail.MovieDetailFragment">
+    >
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -53,17 +53,16 @@
                      android:textSize="@dimen/abc_text_size_medium_material"
                      tools:text="Fight Club" />
 
-                 <ImageButton
+                 <ImageView
+
                      android:id="@+id/movie_detail_favorite_image_button"
-                     android:layout_width="wrap_content"
-                     android:layout_height="wrap_content"
-                     android:layout_alignParentTop="true"
+                     android:layout_width="50dp"
+                     android:layout_height="50dp"
+
+                     android:background="@drawable/favourite_button_selector"
+
                      android:layout_alignParentRight="true"
-                     android:layout_alignParentEnd="true"
-                     android:background="@android:color/transparent"
-                     android:tint="@color/star_yellow"
-                     android:contentDescription="@string/movie_detail_favorite_image_view_description"
-                     tools:src="@drawable/abc_btn_rating_star_on_mtrl_alpha" />
+                     android:layout_below="@+id/movie_detail_rating_text_view"/>
 
                  <TextView
                      android:id="@+id/movie_detail_release_date_text_view"
@@ -122,7 +121,7 @@
             <LinearLayout
                 android:id="@+id/movie_detail_videos_container"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="100dp"
                 android:orientation="vertical" />
 
             <TextView
